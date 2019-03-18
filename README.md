@@ -15,14 +15,14 @@ concept, but one that students are likely not familiar with.
 The Task
 --------
 
-To form some familiarity with the tools and GUI interacttivy with python in the browser,
+To form some familiarity with the tools and GUI interactivity with python in the browser,
 we ask that potential students extend the code in this repo, via github PR. The goal is:
 
 - for the given data volume, to be able to select among the three axes of projection, XY, XZ, YZ
 - for each of those axes to be able to select any index of plane to show
 - to resize the plot axes to accurately reflect the current selection
 - (bonus) to provide a choice of colour-maps to render with (see 
-  [plettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html))
+  [palettes](https://bokeh.pydata.org/en/latest/docs/reference/palettes.html))
 - (bonus) to rewrite the code using [parameters](https://panel.pyviz.org/user_guide/Param.html)
 
 The Existing Code
