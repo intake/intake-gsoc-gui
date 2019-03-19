@@ -29,13 +29,18 @@ The Existing Code
 -----------------
 
 The file `app.py` contains the reference to be built upon. It sets up an interactive application which
-runs in a browser. To run:
+runs in a browser. `app.ipynb` contains the same code in a notebook. To run:
 ```bash
 python app.py
 ```
+or
+```bash
+jupyter notebook app.ipynb
+```
+
 Dependencies can be installed with the command
 ```bash
-conda install -c conda-forge panel bokeh numpy scikit-image param
+conda install -c conda-forge panel bokeh numpy scikit-image param notebook tornado=5
 ```
 
 The layout contains one button, which causes the `make()` function to be run every time, and flips
@@ -44,4 +49,5 @@ colour-map are fixed.
 
 The code is not meant to be an example of good design! It is just the simplest interaction that we
 could come up with, demonstrating a Panel callback. To see a real example of a GUI being built with
-Panel, see [this PR](https://github.com/intake/intake/pull/286).
+Panel, see [this PR](https://github.com/intake/intake/pull/286). If you work in the notebook, only
+commit after clearing all the output cells.

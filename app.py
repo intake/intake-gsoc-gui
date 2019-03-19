@@ -39,6 +39,6 @@ def make():
 if __name__ == "__main__":
     button = pn.widgets.Button(name='Invert')
     button.on_click(lambda *_: make())
-    widgets = pn.Column(button, button, width=400)
+    widgets = pn.Column(button, button)
     make()
     widgets.show()
