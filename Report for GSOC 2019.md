@@ -29,6 +29,9 @@ Activity:
     - [Gallery — Panel](https://pyviz-dev.github.io/panel/gallery/index.html)
     - [User Guide — hvPlot](https://hvplot.pyviz.org/user_guide/index.html)
 
+9. Explored Pangeo Datasets and Catalogs ([Issue #7](https://github.com/intake/intake-gsoc-gui/issues/7)).
+
+10. I have also added `revising OOP Python concepts` to my studylist.
 
 Next week's Agenda:
 - Discussion regarding design of [XrViz](https://github.com/intake/xrviz).
