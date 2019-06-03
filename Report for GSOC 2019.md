@@ -17,7 +17,7 @@ Activity:
 5. Wrote the post [Beginning of my GSOC Journey!](https://hdsingh.github.io/pages/post1.html) ([Issue #4](https://github.com/intake/intake-gsoc-gui/issues/4)).
 6. Set up development environment.
 7. Tested use of catalogs with  [earlier dashboards](https://github.com/hdsingh/Dashboards) and discussed [Issue #3724 · pyviz/holoviews](https://github.com/pyviz/holoviews/issues/3724).
-8. Read and executed the following documentations([Issue #3](https://github.com/intake/intake-gsoc-gui/issues/3)):
+8. Read and executed the following documentations ([Issue #3](https://github.com/intake/intake-gsoc-gui/issues/3)):
     - [Xarray documentation](http://xarray.pydata.org/en/stable/)
     - [Intake documentation](https://intake.readthedocs.io/en/latest/)
     - [PyViz Tutorial — PyViz documentation](http://pyviz.org/tutorial/index.html)
@@ -33,7 +33,7 @@ Activity:
 
 10. I have also added `revising OOP Python concepts` to my studylist.
 
-11. Prepared quick basic implementation of data description section [Issue #5](https://github.com/intake/intake-gsoc-gui/issues/5#).
+11. Prepared quick basic implementation of data description section ([Issue #5](https://github.com/intake/intake-gsoc-gui/issues/5#)).
 
 Next week's Agenda:
 - Discussion regarding design of [XrViz](https://github.com/intake/xrviz).
