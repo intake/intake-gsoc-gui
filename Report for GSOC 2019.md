@@ -33,7 +33,35 @@ Activity:
 
 10. I have also added `revising OOP Python concepts` to my studylist.
 
+11. Prepared quick basic implementation of data description section [Issue #5](https://github.com/intake/intake-gsoc-gui/issues/5#).
+
 Next week's Agenda:
 - Discussion regarding design of [XrViz](https://github.com/intake/xrviz).
 - Preparation of data input section.
 - Learn using [Pytest](https://docs.pytest.org/en/latest/), which is going to be the testing framework for `XrViz`.
+
+## Coding Period (May 27 - Aug 26)
+
+### Week 1 (May 27 - June 2)
+
+Weekly Activity
+
+1. Took an overview of [Pytest](https://docs.pytest.org/en/latest/).
+2. Understood working of `dfviz/widgets.py`.
+3. Weekly e-meet: The following topics were discussed:
+  - Tasks for Phase 1 (see [Phase I Milestone · GitHub](https://github.com/intake/intake-gsoc-gui/milestone/2)).
+  - Tasks for week 1 in particular.
+  - Working of  [Sigslot class](https://github.com/martindurant/dfviz/blob/master/dfviz/widget.py#L27).
+4. Started implementation of [Display and description section· PR#2](https://github.com/intake/xrviz/pull/2). Current status:
+
+   1.Dimensions Display:
+![Dimensions](assets/01_dimension.png)
+
+   2.Coordinates Display:
+![Coordinates](assets/02_coordinate.png)
+
+   3.Variables Display:
+![Variables](assets/03_variable.png)
+
+   4.Attributes Display:
+![Attributes](assets/04_attribute.png)
