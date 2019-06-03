@@ -52,7 +52,7 @@ Weekly Activity
   - Tasks for Phase 1 (see [Phase I Milestone · GitHub](https://github.com/intake/intake-gsoc-gui/milestone/2)).
   - Tasks for week 1 in particular.
   - Working of  [Sigslot class](https://github.com/martindurant/dfviz/blob/master/dfviz/widget.py#L27).
-4. Started implementation of Display and description section. ([PR#2](https://github.com/intake/xrviz/pull/2)). Current status:
+4. Started implementation of Display and description section ([PR#2](https://github.com/intake/xrviz/pull/2)). Current status:
 
    1.Dimensions Display:
 ![Dimensions](assets/01_dimension.png)
