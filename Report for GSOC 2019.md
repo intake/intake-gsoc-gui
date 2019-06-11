@@ -65,3 +65,18 @@ Weekly Activity
 
    4.Attributes Display:
 ![Attributes](assets/04_attribute.png)
+
+### Week 2 (June 03 - June 09)
+
+Weekly Activity
+
+1. Weekly e-meet: The following topics were discussed:
+   - Appearance and functionality of display section. After discussion we concluded to have a simpler interface, displying only the `variables` in the selector. Other global properties would be always visible.
+   - Overview and usage of tests.
+   - Features and functionality of Fields panel.
+2. Implemented simpler interface consisting of Display and description section ([PR #2](https://github.com/intake/xrviz/pull/2)). For more details please refer [Issue #14](https://github.com/intake/intake-gsoc-gui/issues/14) and [Issue #15](https://github.com/intake/intake-gsoc-gui/issues/14). Current status:
+
+![Simpler Interface](assets/05_simpler_interface.png)
+3. Started implementation of Basic Fields and Output Panel ([PR#3](https://github.com/intake/xrviz/pull/3)). Current status:
+
+![Basic Fields and Output Panel](assets/06_fields_output.png)
