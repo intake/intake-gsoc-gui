@@ -80,3 +80,32 @@ Weekly Activity
 3. Started implementation of Basic Fields and Output Panel ([PR#3](https://github.com/intake/xrviz/pull/3)). Current status:
 
 ![Basic Fields and Output Panel](assets/06_fields_output.png)
+
+
+### Week 3 (June 10 - June 16)
+
+Weekly Activity
+
+1. Improved the Basic fields and output panel. Added support for plotting data coordinates with respect to variables, which earlier resulted in errors.
+2. Completed implementation of Basic Fields and Output Panel ([PR #3](https://github.com/intake/xrviz/pull/3)). The plotting function has been reimplemented using `sel` method.
+3. The following topics were discussed in weekly e-meet:
+   - `ignore_events` method present in `dfviz`, can be useful for some interactions in `xrviz`.
+   - Demonstrated the working of interface.
+   - `convert_widget` function.
+   - Way to set/reset variables to coordinates.
+   - Aggregation methods ([Issue #21](https://github.com/intake/intake-gsoc-gui/issues/21))
+   - Overview of tasks for Phase 2:
+       - Style Panel ([Issue #22](https://github.com/intake/intake-gsoc-gui/issues/22))
+       - Projection Panel ([Issue #23](https://github.com/intake/intake-gsoc-gui/issues/23))
+       - Time series extraction ([Issue #24](https://github.com/intake/intake-gsoc-gui/issues/24))
+4. Started implementation of Aggregations in the fields panel ([PR #4](https://github.com/intake/xrviz/pull/4)). Current Status:
+  - For single selection
+
+![Aggregations 1 selection](assets/07_agg1.png)
+
+  - For multiple selections
+   
+![Aggregations 1 selection](assets/08_agg2.png)
+![Aggregations 1 selection](assets/09_agg3.png)
+
+5. Started discussion to find out a possible solution to set and reset coordinates within the interface. For more details please refer [Issue #20](https://github.com/intake/intake-gsoc-gui/issues/20).
