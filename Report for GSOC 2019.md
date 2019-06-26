@@ -109,3 +109,28 @@ Weekly Activity
 ![Aggregations 1 selection](assets/09_agg3.png)
 
 5. Started discussion to find out a possible solution to set and reset coordinates within the interface. For more details please refer [Issue #20](https://github.com/intake/intake-gsoc-gui/issues/20).
+
+
+### Week 4 (June 17 - June 23)
+
+Weekly Activity
+
+1. Improved the functionality implemented earlier for Aggregations in the Fields panel. Now the user can aggregate along remaining dimensions (not selected in `x` and `y` ). The option to create a `Select` widget or `Animate` is also present in case the user does not wish to apply any aggregation on the dimension. ([PR #4](https://github.com/intake/xrviz/pull/4))
+
+![Aggregations](assets/10_agg_final.png)
+
+2. Implemented functionality to set reset coords ([PR #7](https://github.com/intake/xrviz/pull/7)). User can select and set any variable as a coordinate.
+
+![Set Reset Coords](assets/11_set_coords.png)
+
+3. Modified set reset coords to work with aggregations. The user can have aggregation for a variable along a dimension, even when `x` and `y` Select has `coord` as options.
+
+![Set Reset Coords](assets/12_set_coords.png)
+
+4. Weekly e-meet: The following topics were discussed:
+  - Installation package ([PR #8588 · conda-forge](https://github.com/conda-forge/staged-recipes/pull/8588))
+  - Demonstration of Aggregations ([PR #4](https://github.com/intake/xrviz/pull/4))
+  - Demonstration of Set reset Coords ([PR #7](https://github.com/intake/xrviz/pull/7))
+  - Discussed Tabular Rearrangement ([Issue #26](https://github.com/intake/intake-gsoc-gui/issues/26))
+  - Generalisability of the interface: In future the dashboard can be used as base by the users, or community to visualise data related to a particular domain such as Astronomy, Oceanography by adding domian specific customisations.
+5. XrViz can be installed as a package by `conda install -c conda-forge xrviz`. ([conda-forge/xrviz-feedstock](https://github.com/conda-forge/xrviz-feedstock))
