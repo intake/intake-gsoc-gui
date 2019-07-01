@@ -141,12 +141,18 @@ Weekly Activity
 Weekly Activity
 
 1. Rearranged panels into Tabs ([PR #12](https://github.com/intake/xrviz/pull/12)).
+![Tabs](assets/13_tabs.png)
+
 2. Started implementation of Style Panel ([PR #13](https://github.com/intake/xrviz/pull/13)).
+![Style](assets/14_style.png)
+
 3. Started implementation of Projection Panel ([PR #14](https://github.com/intake/xrviz/pull/14)).
+![Projection](assets/15_projection.png)
+
 4. Weekly e-meet: The following topics were discussed:
-   - Demonstrated interface after tabular rearrangement
-   - Demonstrated Style Panel
-   - Demonstrated Projection Panel
+   - Demonstrated interface after Tabular rearrangement.
+   - Demonstrated Style Panel.
+   - Demonstrated Projection Panel.
    - Changed topic for blogpost to “XrViz: An interactive visualisation interface for Xarrays”  ([Issue #9](https://github.com/intake/intake-gsoc-gui/issues/9#issuecomment-506765720)).
    - Enable Travis CI ([PR #15](https://github.com/intake/xrviz/pull/15#event-2445201688)).
 5. Modified Style Panel according to the changes discussed.
