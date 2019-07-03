@@ -134,3 +134,31 @@ Weekly Activity
   - Discussed Tabular Rearrangement ([Issue #26](https://github.com/intake/intake-gsoc-gui/issues/26))
   - Generalisability of the interface: In future the dashboard can be used as base by the users, or community to visualise data related to a particular domain such as Astronomy, Oceanography by adding domian specific customisations.
 5. XrViz can be installed as a package by `conda install -c conda-forge xrviz`. ([conda-forge/xrviz-feedstock](https://github.com/conda-forge/xrviz-feedstock))
+
+
+### Week 5 (June 24 - June 30)
+
+Weekly Activity
+
+1. Rearranged panels into Tabs ([PR #12](https://github.com/intake/xrviz/pull/12)).
+![Tabs](assets/13_tabs.png)
+
+2. Started implementation of Style Panel ([PR #13](https://github.com/intake/xrviz/pull/13)).
+![Style](assets/14_style.png)
+
+3. Started implementation of Projection Panel ([PR #14](https://github.com/intake/xrviz/pull/14)).
+![Projection](assets/15_projection.png)
+
+4. Weekly e-meet: The following topics were discussed:
+   - Demonstrated interface after Tabular rearrangement.
+   - Demonstrated Style Panel.
+   - Demonstrated Projection Panel.
+   - Changed topic for blogpost to “XrViz: An interactive visualisation interface for Xarrays”  ([Issue #9](https://github.com/intake/intake-gsoc-gui/issues/9#issuecomment-506765720)).
+   - Enable Travis CI ([PR #15](https://github.com/intake/xrviz/pull/15#event-2445201688)).
+5. Modified Style Panel according to the changes discussed.
+6. BlogPost [XrViz: An interactive visualisation interface for Xarrays](https://medium.com/@hdsingh13/xrviz-an-interactive-visualisation-interface-for-xarrays-9ecf8e325aa9?source=friends_link&sk=a01204364cf9d123dcb4e89277a4a6cf).
+7. Implemented `xrviz.example()`, so the following command can be used to try the interface([PR #20](https://github.com/intake/xrviz/pull/20#)).
+```python
+python -c "import xrviz; xrviz.example()"
+```
+8. Fixed pip installation( [PR #18](https://github.com/intake/xrviz/pull/18#)), which solved Colormap not found if installed from pip ([Issue #17](https://github.com/intake/xrviz/issues/17#issuecomment-507055551)).
