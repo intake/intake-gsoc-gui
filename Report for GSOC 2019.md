@@ -162,3 +162,23 @@ Weekly Activity
 python -c "import xrviz; xrviz.example()"
 ```
 8. Fixed pip installation( [PR #18](https://github.com/intake/xrviz/pull/18#)), which solved Colormap not found if installed from pip ([Issue #17](https://github.com/intake/xrviz/issues/17#issuecomment-507055551)).
+
+
+### Week 6 (July 01 - July 07)
+
+Weekly Activity
+
+1. Completed implementation of Style Panel ([PR #13](https://github.com/intake/xrviz/pull/13)).
+2. Modifed Projection Panel according to changes discussed in last e-meet ([PR #14](https://github.com/intake/xrviz/pull/14)).
+
+With show_map (basemap):
+![Projection](assets/16_projection.png)
+
+Without show_map (projection):
+![Projection](assets/17_projection.png)
+
+3. Weekly e-meet: The following topics were discussed:
+   - Demonstrated changes made in Style Panel.
+   - Demonstrated changes made in Projection Panel.
+   - Tests to be implemented for Style, Projection and Dashboard.
+   - Use of Coverage.
