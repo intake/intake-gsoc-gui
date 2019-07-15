@@ -188,13 +188,13 @@ Without show_map (projection):
 
 Weekly Activity
 
-1. Started working on Series Extraction ([Issue #24](https://github.com/intake/intake-gsoc-gui/issues/24)), (in branch [pre_series](https://github.com/hdsingh/xrviz/tree/pre_series), yet to create PR).
+1. Started implementation of Series Extraction ([Issue #24](https://github.com/intake/intake-gsoc-gui/issues/24)), (in branch [pre_series](https://github.com/hdsingh/xrviz/tree/pre_series), yet to create PR).
 2. Weekly e-meet: The following topics were discussed:
    - Demonstrated changes made in Projection Panel
    - Passing of parameters to select values upon initialisation
    - Replace `central_latitude` and `central_longitude` widgets with `LiteralInput`.
    - Demonstrated recently started Series extraction feature.
-3.  Completed Projection Panel ([PR #14](https://github.com/intake/xrviz/pull/14)).
+3.  Completed  implementation of Projection Panel ([PR #14](https://github.com/intake/xrviz/pull/14)).
 
 ![Projection](assets/18_projection.png)
 
