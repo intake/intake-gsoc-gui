@@ -182,3 +182,20 @@ Without show_map (projection):
    - Demonstrated changes made in Projection Panel.
    - Tests to be implemented for Style, Projection and Dashboard.
    - Use of Coverage.
+
+
+### Week 7 (July 08 - July 14)
+
+Weekly Activity
+
+1. Started implementation of Series Extraction ([Issue #24](https://github.com/intake/intake-gsoc-gui/issues/24)), (in branch [pre_series](https://github.com/hdsingh/xrviz/tree/pre_series), yet to create PR).
+2. Weekly e-meet: The following topics were discussed:
+   - Demonstrated changes made in Projection Panel
+   - Passing of parameters to select values upon initialisation
+   - Replace `central_latitude` and `central_longitude` widgets with `LiteralInput`.
+   - Demonstrated recently started Series extraction feature.
+3.  Completed  implementation of Projection Panel ([PR #14](https://github.com/intake/xrviz/pull/14)).
+
+![Projection](assets/18_projection.png)
+
+4. Started adding more tests (in branch [pre_tests_for_style_proj](https://github.com/hdsingh/xrviz/tree/pre_tests_for_style_proj), yet to create PR).
