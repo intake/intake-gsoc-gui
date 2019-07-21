@@ -199,3 +199,24 @@ Weekly Activity
 ![Projection](assets/18_projection.png)
 
 4. Started adding more tests (in branch [pre_tests_for_style_proj](https://github.com/hdsingh/xrviz/tree/pre_tests_for_style_proj), yet to create PR).
+
+
+### Week 8 (July 15 - July 21)
+
+Weekly Activity
+
+1. Weekly e-meet: The following topics were discussed:
+   - Minor changes to be made 
+      - Rasterize in style panel
+      - Textbox for crs and projections params instead of LiteralInput
+      - Improve styling of displayer in Fields Panel
+   - Demonstrated progress of Series Extraction feature.
+   - Change of blogpost topic: "Amazing Pyviz" -> "Sigslot"
+   - Good time to start documentation, will use [readthedocs](https://readthedocs.org/).
+2. Minor changes added with `Change displayer width policy to min` ([PR #25](https://github.com/intake/xrviz/pull/25)) and `Urgent fixes` ([PR #28](https://github.com/intake/xrviz/pull/28)).
+3. Added `Tests` ([PR #26](https://github.com/intake/xrviz/pull/26)), with coverage of 97%.
+4. Improved Series extraction ([PR #27](https://github.com/intake/xrviz/pull/27)) by adding feature to extract along 2d coordinates and display information of other dimensions in hover.
+
+![Series](assets/19_series.png)
+
+5. Created [Explore-HRRR-with-XrViz](https://github.com/reproducible-notebooks/Explore-HRRR-with-XrViz), to demonstrate the progress of XrViz. Also deployed this notebook on [binder](https://aws-uswest2-binder.pangeo.io/v2/gh/reproducible-notebooks/Explore-HRRR-with-XrViz/master?filepath=HRRR_dashboard.ipynb).
