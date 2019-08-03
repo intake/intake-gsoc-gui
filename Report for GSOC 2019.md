@@ -220,3 +220,17 @@ Weekly Activity
 ![Series](assets/19_series.png)
 
 5. Created [Explore-HRRR-with-XrViz](https://github.com/reproducible-notebooks/Explore-HRRR-with-XrViz), to demonstrate the progress of XrViz. Also deployed this notebook on [binder](https://aws-uswest2-binder.pangeo.io/v2/gh/reproducible-notebooks/Explore-HRRR-with-XrViz/master?filepath=HRRR_dashboard.ipynb).
+
+
+### Week 9 (July 22 - July 28)
+
+Weekly Activity
+
+1. Completed Series extraction ([PR #27](https://github.com/intake/xrviz/pull/27)).
+2. Weekly e-meet: The following topics were discussed:
+   - Structure of and topics to cover in documentation.
+   - Possible reasons behind faulty behaviour with COAWST dataset.
+   - Presentation of XrViz to ESIP and Anaconda.
+3. Published a blog post [Sigslot — A simple signalling mechanism for Panel](https://medium.com/@hdsingh13/sigslot-a-simple-signalling-mechanism-for-panel-e78de2f67d15?source=friends_link&sk=f66d3ba3dd5dcdb445dd366ebd098634).
+4. Published a blog post [Let’s visualise big gridded data with Intake and XrViz](https://medium.com/@hdsingh13/lets-visualise-big-gridded-data-with-intake-and-xrviz-d1a90bb84fb2?source=friends_link&sk=4a8417b10c4065109fe21c1369a5db45).
+5. Started writing documentation using Sphinx and Read the Docs ([PR #29](https://github.com/intake/xrviz/pull/29)).
