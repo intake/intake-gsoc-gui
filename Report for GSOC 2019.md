@@ -234,3 +234,14 @@ Weekly Activity
 3. Published a blog post [Sigslot — A simple signalling mechanism for Panel](https://medium.com/@hdsingh13/sigslot-a-simple-signalling-mechanism-for-panel-e78de2f67d15?source=friends_link&sk=f66d3ba3dd5dcdb445dd366ebd098634).
 4. Published a blog post [Let’s visualise big gridded data with Intake and XrViz](https://medium.com/@hdsingh13/lets-visualise-big-gridded-data-with-intake-and-xrviz-d1a90bb84fb2?source=friends_link&sk=4a8417b10c4065109fe21c1369a5db45).
 5. Started writing documentation using Sphinx and Read the Docs ([PR #29](https://github.com/intake/xrviz/pull/29)).
+
+### Week 10 (July 29 - Aug 04)
+
+Weekly Activity
+
+1. Weekly e-meet: The following topics were discussed:
+   - The documentation should be short, clear and concise.
+   - Schedule for presentation of Xrviz to Anaconda and ESIP.
+2. Completed Initial Documentation ([PR #29](https://github.com/intake/xrviz/pull/29)). Docs are now available at [xrviz.readthedocs.io](https://xrviz.readthedocs.io/en/latest/).
+3. Started improving documentation further ([PR #32](https://github.com/intake/xrviz/pull/32)).
+4. Presented Xrviz in Anaconda Demo Friday.
