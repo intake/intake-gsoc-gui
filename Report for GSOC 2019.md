@@ -245,3 +245,11 @@ Weekly Activity
 2. Completed Initial Documentation ([PR #29](https://github.com/intake/xrviz/pull/29)). Docs are now available at [xrviz.readthedocs.io](https://xrviz.readthedocs.io/en/latest/).
 3. Started improving documentation further ([PR #32](https://github.com/intake/xrviz/pull/32)).
 4. Presented Xrviz in Anaconda Demo Friday.
+
+### Week 11 (Aug 05 - Aug 11)
+
+Weekly Activity
+
+1. Completed improving documentation ([PR #32](https://github.com/intake/xrviz/pull/32)). 
+2. Improved [README](https://github.com/intake/xrviz/blob/master/README.md) by adding badges and basic information ([PR #35](https://github.com/intake/xrviz/pull/35)).
+3. Started looking into solution for issue: `quantile doesn't work for dask-powered xarrays` ([Issue #31](https://github.com/intake/xrviz/issues/31)) and attemped solving it in [PR #37](https://github.com/intake/xrviz/pull/37).
