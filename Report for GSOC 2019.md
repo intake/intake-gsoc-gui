@@ -253,3 +253,13 @@ Weekly Activity
 1. Completed improving documentation ([PR #32](https://github.com/intake/xrviz/pull/32)). 
 2. Improved [README](https://github.com/intake/xrviz/blob/master/README.md) by adding badges and basic information ([PR #35](https://github.com/intake/xrviz/pull/35)).
 3. Started looking into solution for issue: `quantile doesn't work for dask-powered xarrays` ([Issue #31](https://github.com/intake/xrviz/issues/31)) and attemped solving it in [PR #37](https://github.com/intake/xrviz/pull/37).
+
+### Week 12 (Aug 12 - Aug 18)
+
+Weekly Activity
+1. Weekly e-meet: The following topics were discussed:
+   - The dramatic slowness of XrViz when run within Intake ([PR #398 intake](https://github.com/intake/intake/pull/398))
+   - GSOC Report and code submission.
+   - Timings for presentation of XrViz to Pangeo.
+2. Presented Xrviz to Pangeo in Weekly Meeting. A 10 minute demonstration of the interface.
+3. Completed [PR #37](https://github.com/intake/xrviz/pull/37). Now users can also visualise dask xarrays.
