@@ -27,6 +27,9 @@ Student: [Harman Deep Singh](https://github.com/hdsingh) Mentors: [Rich Signell]
   + [Week 10 (July 29 - Aug 04)](#week-10-july-29---aug-04)
   + [Week 11 (Aug 05 - Aug 11)](#week-11-aug-05---aug-11)
   + [Week 12 (Aug 12 - Aug 18)](#week-12-aug-12---aug-18)
+* [Current State of the Project](#current-state-of-the-project)
+* [Future work](#future-work)
+* [Learnings](#learnings)
 * [Acknowledgment](#acknowledgment)
 
 ## Community Bonding Period (May 6th - May 26th)
@@ -289,8 +292,30 @@ Weekly Activity
 2. Presented Xrviz to Pangeo in Weekly Meeting. A 10 minute demonstration of the interface.
 3. Completed [PR #37](https://github.com/intake/xrviz/pull/37). Now users can also visualise dask xarrays.
 
+## Current State of the Project
+
+The work done during the coding period has laid down a foundation for further development of XrViz. It is well positioned to grow and thrive, embedded in the intake project. The documentation would provide a good starting point for future contributors to get acquainted with the interface. The feedback I've received so far from the community indicates that they find this as a valuable contribution.
+
+## Future work
+
+I feel that we have achieved most of what we set out to do in terms of deliverables. However, the following additions will make the interface more useful:
+1. Integration of Xrviz in Intake GUI.
+2. A way to launch the dashboard directly from command line as done in ncview.
+3. The dashboard can be customised to visualise data related to a particular domain such as Astronomy, Oceanography by adding domian specific operations and functionality.
+
+## Learnings
+
+Working with ESIP, Intake and HoloViz under Google Summer of Code has been an amazing and rewarding experience. It has provided me a chance for learning and self improvement. Here are some of the lessons I have learnt:
+
+1. Creating interactive GUI with Panel and dashboarding. Well designed GUIs have the potential to simplify the workflow and save user time.
+2. The importance of automated testing in software development. Pytest and Travis CI has been used in this project.
+3. Creating and writing documentation. Clear and concise documentation requires careful thinking.
+4. Routine code submission, discussion and review by mentors helps completing task in short time and in directed manner.
+5. Became more familiar with Git, Github and open source culture and software development in general. Also learnt several python best practices. This would be helpful in contributing to other projects.
+6. This project increased my interest in events and developments of earth science community.
+7. The importance of effective communication in open source. This is the key to explain your ideas and get help from others on the issues being faced. Weekly e-meets helped me gain more confidence and ability to express myself better.
+8. Always staying open to new ideas and suggestions is vital. It helps you to understand the viewpoint of mentors, community and any other person in general.
+
 ## Acknowledgment
 
 I am extremely grateful to my mentors Rich Signell and Martin Durant for helping me out at various stages throughout the summer. Special thanks to Annie Burgess, ESIP Lab Director for facilitating the Summer Program. Sincere gratitude to Google for offering me this great opportunity.
-
-Working with ESIP, Intake and Pyviz under Google Summer of Code has been an amazing experience. This has given me a chance to learn more about creating interactive dashboards, python best practices, earth science, software development, open source and much more. I feel the project is in good state and would be extremely useful for the community.
