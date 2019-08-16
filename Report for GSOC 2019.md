@@ -1,12 +1,16 @@
 # Report for GSOC 2019
 
-This page is the location for the reporting related to the GSoC 2019 project titled [A next-generation GUI for visualizing big gridded data in Python](https://github.com/ESIPFed/gsoc/issues/14).
+This page is the location for the reporting related to the GSoC 2019 project titled [A next-generation GUI for visualizing big gridded data in Python](https://github.com/ESIPFed/gsoc/issues/14) with the organisation [Earth Science Information Parteners](http://esipfed.org) and member organisation [US Geological Survey](https://www.usgs.gov/).
 
 Student: [Harman Deep Singh](https://github.com/hdsingh) Mentors: [Rich Signell](https://github.com/rsignell-usgs), [Martin Durant](https://github.com/martindurant) ESIP POC: [Annie Bryant Burgess](https://github.com/abburgess)
 
-Project Repository: [intake/xrviz](https://github.com/intake/xrviz)
-
-Project Documentation: [xrviz.readthedocs.io](https://xrviz.readthedocs.io)
+| Project Details|  |
+|---	|---	|
+|Initial Proposal|  [Available here](https://drive.google.com/file/d/11EolJYYIAZWzo5FfrMRnKilAESub8wuf/view?usp=sharing)|
+|Repository|[intake/xrviz](https://github.com/intake/xrviz)|
+|Documentation|[xrviz.readthedocs.io](https://xrviz.readthedocs.io)|
+|Milestones|  [#1](https://github.com/intake/intake-gsoc-gui/milestone/1), [#2](https://github.com/intake/intake-gsoc-gui/milestone/2), [#3](https://github.com/intake/intake-gsoc-gui/milestone/3), [#4](https://github.com/intake/intake-gsoc-gui/milestone/4) |
+|Duration| ~4 Months (6 May'19 - 26 Aug'19)|
 
 ## Index
 * [Community Bonding Period (May 6th - May 26th)](#community-bonding-period-may-6th---may-26th)
@@ -23,7 +27,7 @@ Project Documentation: [xrviz.readthedocs.io](https://xrviz.readthedocs.io)
   + [Week 10 (July 29 - Aug 04)](#week-10-july-29---aug-04)
   + [Week 11 (Aug 05 - Aug 11)](#week-11-aug-05---aug-11)
   + [Week 12 (Aug 12 - Aug 18)](#week-12-aug-12---aug-18)
-
+* [Acknowledgment](#acknowledgment)
 
 ## Community Bonding Period (May 6th - May 26th)
 
@@ -284,3 +288,9 @@ Weekly Activity
    - Timings for presentation of XrViz to Pangeo.
 2. Presented Xrviz to Pangeo in Weekly Meeting. A 10 minute demonstration of the interface.
 3. Completed [PR #37](https://github.com/intake/xrviz/pull/37). Now users can also visualise dask xarrays.
+
+## Acknowledgment
+
+I am extremely grateful to my mentors Rich Signell and Martin Durant for helping me out at various stages throughout the summer. Special thanks to Annie Burgess, ESIP Lab Director for facilitating the Summer Program. Sincere gratitude to Google for offering me this great opportunity.
+
+Working with ESIP, Intake and Pyviz under Google Summer of Code has been an amazing experience. This has given me a chance to learn more about creating interactive dashboards, python best practices, earth science, software development, open source and much more. I feel the project is in good state and would be extremely useful for the community.
