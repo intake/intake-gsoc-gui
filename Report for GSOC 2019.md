@@ -29,7 +29,7 @@ Student: [Harman Deep Singh](https://github.com/hdsingh) Mentors: [Rich Signell]
   + [Week 12 (Aug 12 - Aug 18)](#week-12-aug-12---aug-18)
 * [Current State of the Project](#current-state-of-the-project)
 * [Future work](#future-work)
-* [Learnings](#learnings)
+* [Lessons Learned](#lessons-learned)
 * [Acknowledgment](#acknowledgment)
 
 ## Community Bonding Period (May 6th - May 26th)
@@ -306,7 +306,7 @@ I feel that we have achieved most of what we set out to do in terms of deliverab
 2. A way to launch the dashboard directly from command line as done in ncview.
 3. The dashboard can be customised to visualise data related to a particular domain such as Astronomy, Oceanography by adding domian specific operations and functionality.
 
-## Learnings
+## Lessons learned
 
 Working with ESIP, Intake and HoloViz under Google Summer of Code has been an amazing and rewarding experience. It has provided me a chance for learning and self improvement. Here are some of the lessons I have learnt:
 
