@@ -1,10 +1,38 @@
 # Report for GSOC 2019
 
-This page is the location for the reporting related to the GSoC 2019 project titled [A next-generation GUI for visualizing big gridded data in Python](https://github.com/ESIPFed/gsoc/issues/14).
+This page is the location for the reporting related to the GSoC 2019 project titled [A next-generation GUI for visualizing big gridded data in Python](https://github.com/ESIPFed/gsoc/issues/14) with the organisation [Earth Science Information Parteners](http://esipfed.org) and member organisation [US Geological Survey](https://www.usgs.gov/).
 
 Student: [Harman Deep Singh](https://github.com/hdsingh) Mentors: [Rich Signell](https://github.com/rsignell-usgs), [Martin Durant](https://github.com/martindurant) ESIP POC: [Annie Bryant Burgess](https://github.com/abburgess)
 
-## Community Bonding Period (May 6th - May 26th):
+| Project Details|  |
+|---	|---	|
+|Initial Proposal|  [Available here](https://drive.google.com/file/d/11EolJYYIAZWzo5FfrMRnKilAESub8wuf/view?usp=sharing)|
+|Repository|[intake/xrviz](https://github.com/intake/xrviz)|
+|Documentation|[xrviz.readthedocs.io](https://xrviz.readthedocs.io)|
+|Milestones|  [#1](https://github.com/intake/intake-gsoc-gui/milestone/1), [#2](https://github.com/intake/intake-gsoc-gui/milestone/2), [#3](https://github.com/intake/intake-gsoc-gui/milestone/3), [#4](https://github.com/intake/intake-gsoc-gui/milestone/4) |
+|Duration| ~4 Months (6 May'19 - 26 Aug'19)|
+
+## Index
+* [Community Bonding Period (May 6th - May 26th)](#community-bonding-period-may-6th---may-26th)
+* [Coding Period (May 27 - Aug 26)](#coding-period-may-27---aug-26)
+  + [Week 1 (May 27 - June 2)](#week-1-may-27---june-2)
+  + [Week 2 (June 03 - June 09)](#week-2-june-03---june-09)
+  + [Week 3 (June 10 - June 16)](#week-3-june-10---june-16)
+  + [Week 4 (June 17 - June 23)](#week-4-june-17---june-23)
+  + [Week 5 (June 24 - June 30)](#week-5-june-24---june-30)
+  + [Week 6 (July 01 - July 07)](#week-6-july-01---july-07)
+  + [Week 7 (July 08 - July 14)](#week-7-july-08---july-14)
+  + [Week 8 (July 15 - July 21)](#week-8-july-15---july-21)
+  + [Week 9 (July 22 - July 28)](#week-9-july-22---july-28)
+  + [Week 10 (July 29 - Aug 04)](#week-10-july-29---aug-04)
+  + [Week 11 (Aug 05 - Aug 11)](#week-11-aug-05---aug-11)
+  + [Week 12 (Aug 12 - Aug 18)](#week-12-aug-12---aug-18)
+* [Current State of the Project](#current-state-of-the-project)
+* [Future work](#future-work)
+* [Learnings](#learnings)
+* [Acknowledgment](#acknowledgment)
+
+## Community Bonding Period (May 6th - May 26th)
 
 [Community Bonding Period Milestone](https://github.com/intake/intake-gsoc-gui/milestone/1)
 
@@ -253,3 +281,44 @@ Weekly Activity
 1. Completed improving documentation ([PR #32](https://github.com/intake/xrviz/pull/32)). 
 2. Improved [README](https://github.com/intake/xrviz/blob/master/README.md) by adding badges and basic information ([PR #35](https://github.com/intake/xrviz/pull/35)).
 3. Started looking into solution for issue: `quantile doesn't work for dask-powered xarrays` ([Issue #31](https://github.com/intake/xrviz/issues/31)) and attemped solving it in [PR #37](https://github.com/intake/xrviz/pull/37).
+
+### Week 12 (Aug 12 - Aug 18)
+
+Weekly Activity
+1. Weekly e-meet: The following topics were discussed:
+   - The dramatic slowness of XrViz when run within Intake ([PR #398 intake](https://github.com/intake/intake/pull/398))
+   - GSOC Report and code submission.
+   - Timings for presentation of XrViz to Pangeo.
+2. Presented Xrviz to Pangeo in Weekly Meeting. A 10 minute demonstration of the interface.
+3. Completed [PR #37](https://github.com/intake/xrviz/pull/37). Now users can also visualise dask xarrays.
+
+## Current State of the Project
+
+The work done during the coding period has laid down a foundation for further development of XrViz. It is well positioned to grow and thrive, embedded in the intake project. The documentation would provide a good starting point for future contributors to get acquainted with the interface. The feedback I've received so far from the community indicates that they find this as a valuable contribution.
+
+**Merged Pull Requests**:
+[#2](https://github.com/intake/xrviz/pull/2), [#3](https://github.com/intake/xrviz/pull/3), [#4](https://github.com/intake/xrviz/pull/4), [#7](https://github.com/intake/xrviz/pull/7), [#12](https://github.com/intake/xrviz/pull/12), [#13](https://github.com/intake/xrviz/pull/13), [#14](https://github.com/intake/xrviz/pull/14), [#15](https://github.com/intake/xrviz/pull/15), [#18](https://github.com/intake/xrviz/pull/18), [#20](https://github.com/intake/xrviz/pull/20), [#24](https://github.com/intake/xrviz/pull/24), [#25](https://github.com/intake/xrviz/pull/25), [#26](https://github.com/intake/xrviz/pull/26), [#27](https://github.com/intake/xrviz/pull/27), [#28](https://github.com/intake/xrviz/pull/28), [#29](https://github.com/intake/xrviz/pull/29), [#32](https://github.com/intake/xrviz/pull/32), [#35](https://github.com/intake/xrviz/pull/35), [#37](https://github.com/intake/xrviz/pull/37)
+
+## Future work
+
+I feel that we have achieved most of what we set out to do in terms of deliverables. However, the following additions will make the interface more useful:
+1. Integration of Xrviz in Intake GUI.
+2. A way to launch the dashboard directly from command line as done in ncview.
+3. The dashboard can be customised to visualise data related to a particular domain such as Astronomy, Oceanography by adding domian specific operations and functionality.
+
+## Learnings
+
+Working with ESIP, Intake and HoloViz under Google Summer of Code has been an amazing and rewarding experience. It has provided me a chance for learning and self improvement. Here are some of the lessons I have learnt:
+
+1. Creating interactive GUI with Panel and dashboarding. Well designed GUIs have the potential to simplify the workflow and save user time.
+2. The importance of automated testing in software development. Pytest and Travis CI has been used in this project.
+3. Creating and writing documentation. Clear and concise documentation requires careful thinking.
+4. Routine code submission, discussion and review by mentors helps completing task in short time and in directed manner.
+5. Became more familiar with Git, Github and open source culture and software development in general. Also learnt several python best practices. This would be helpful in contributing to other projects.
+6. This project increased my interest in events and developments of earth science community.
+7. The importance of effective communication in open source. This is the key to explain your ideas and get help from others on the issues being faced. Weekly e-meets helped me gain more confidence and ability to express myself better.
+8. Always staying open to new ideas and suggestions is vital. It helps you to understand the viewpoint of mentors, community and any other person in general.
+
+## Acknowledgment
+
+I am extremely grateful to my mentors Rich Signell and Martin Durant for helping me out at various stages throughout the summer. Special thanks to Annie Burgess, ESIP Lab Director for facilitating the Summer Program. Sincere gratitude to Google for offering me this great opportunity.
