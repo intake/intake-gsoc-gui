@@ -296,6 +296,9 @@ Weekly Activity
 
 The work done during the coding period has laid down a foundation for further development of XrViz. It is well positioned to grow and thrive, embedded in the intake project. The documentation would provide a good starting point for future contributors to get acquainted with the interface. The feedback I've received so far from the community indicates that they find this as a valuable contribution.
 
+**Merged Pull Requests**:
+[PR #2](https://github.com/intake/xrviz/pull/2), [PR #3](https://github.com/intake/xrviz/pull/3), [PR #4](https://github.com/intake/xrviz/pull/4), [PR #7](https://github.com/intake/xrviz/pull/7), [PR #12](https://github.com/intake/xrviz/pull/12), [PR #13](https://github.com/intake/xrviz/pull/13), [PR #14](https://github.com/intake/xrviz/pull/14), [PR #15](https://github.com/intake/xrviz/pull/15), [PR #18](https://github.com/intake/xrviz/pull/18), [PR #20](https://github.com/intake/xrviz/pull/20), [PR #24](https://github.com/intake/xrviz/pull/24), [PR #25](https://github.com/intake/xrviz/pull/25), [PR #26](https://github.com/intake/xrviz/pull/26), [PR #27](https://github.com/intake/xrviz/pull/27), [PR #28](https://github.com/intake/xrviz/pull/28), [PR #29](https://github.com/intake/xrviz/pull/29), [PR #32](https://github.com/intake/xrviz/pull/32), [PR #35](https://github.com/intake/xrviz/pull/35), [PR #37](https://github.com/intake/xrviz/pull/37)
+
 ## Future work
 
 I feel that we have achieved most of what we set out to do in terms of deliverables. However, the following additions will make the interface more useful:
